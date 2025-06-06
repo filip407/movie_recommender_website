@@ -1,0 +1,45 @@
+{
+  "name": "movie-recommender",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Proiect MDS",
+  "author": "Dumitriu Filip",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "vite": "^5.0.8",
+    "jest": "^29.7.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/jest-dom": "^5.16.5"
+  },
+  "keywords": [
+    "react",
+    "movie",
+    "recommendation",
+    "javascript",
+    "vite"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "your-repo-url"
+  }
+}
